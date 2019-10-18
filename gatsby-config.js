@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Getting started`,
-    description: `Use the basic gatsby theme to get running.`,
+    title: `Hello World`,
+    description: `Starting with basic gatsby to build a blog`,
     author: `@gatsbyjs, and @jmchorse`,
   },
   plugins: [
