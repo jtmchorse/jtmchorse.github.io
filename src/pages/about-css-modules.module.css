@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     margin: 0 auto 12px auto;
+    background-color: peru;
+    padding:1em;
   }
   
   .user:last-child {
