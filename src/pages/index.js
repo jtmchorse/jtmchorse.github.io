@@ -35,6 +35,18 @@ const IndexPage = () => (
       alt="Naming things for fun"
       />
       <p>However that doesn't really tell me what the thing does. If someone else had to jump in and was looking down through the code.. WTF why Pacha? Or in all reality you are likely to forget why you did what you did in all of 2 or 3 days, let alone coming back to a project months after you put it down. So, yeah. Lets be lame and call it by what it does. Layout2 it is..</p>
+      <p>So just what does Pacha, I mean.. Layout2 actually give us?</p>
+      <img 
+      src={"../../Screenshot from 2019-10-25 06-26-04.png"}
+      alt="Basic contact page, minimal css"
+      />
+      <p>Our layout component takes this basic page, and well wraps a layout around it.</p>
+      <img 
+      src={"../../Screenshot from 2019-10-25 06-26-21.png"}
+      alt="Basic contact page, minimal css"
+      />
+      <p>Now that we have a new layout, whenever we make a page we'll just call the layot2 component and all our pages will have the same base look.</p>
+      <p>If you have ever install the basic gatsby site, you'll see that layouts can house other components as well. Just look up at the nav here, and the footer. Both of those components are inside the layout componet. I bet we'll get to do that pretty soon in the tutorials.</p>
     </div>
 
     <div>
