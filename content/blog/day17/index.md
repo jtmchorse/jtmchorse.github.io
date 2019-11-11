@@ -12,7 +12,6 @@ Today we're building up the logic to take markdown files and make actual html pa
 Following further along we'll build out a new template, this time we make a folder called templates, then make a blog-post.js template page. We use that back over in gatsby-node.js
 
 As you might have read before, you'll remember that I like to type out each line of code that I'm going through in the tutorials. Why? I think it helps me understand better what I'm doing. I have to read what I'm typing out, and you know, type it. This is useful, but also error prone..
-![](/Screenshot&#32;from&#32;2019-10-30&#32;05-48-32.png)
 ![console erros](/Screenshot&#32;from&#32;2019-11-05&#32;05-33-43.png)
 <!-- <img src={"..Screenshot from 2019-11-01 05-33-43.png"} -->
 
@@ -22,17 +21,18 @@ As you might have read before, you'll remember that I like to type out each line
 
 What you'll notice in the screenshot below is two nearly identical lines. I have taken to copying each line over, and pasting it above the line I typed out. This practice helps me troubleshoot where I mistyped. As you can see I'm the worst at spelling.
 
+![typing error in js file](/Screenshot&#32;from&#32;2019-11-01&#32;05-39-05.png)
+<!-- 
 <img src={"../../Screenshot from 2019-11-01 05-39-05.png"}
 
   alt="typing error in js file"
 
-/>
+/> -->
 
 Now that we've got that working as expected, we <em>should</em> start seeing some pages that represent our two markdown files. <Link to="pandas-and-bananas/">pandas-and-bananas/</Link>
 
 Now that we have those pages building out as pages, we can update our test page from yesterday to actually link to the pages.
 
-<ul>
 
   <li>Update the gatsby import  <img src={"../../Screenshot from 2019-11-01 05-59-01.png"} alt="updated import function" /></li>
 
@@ -42,7 +42,6 @@ Now that we have those pages building out as pages, we can update our test page 
 
   <li>Don't forget to update the query to include the slug. Otherwise gatsby will error out your page.. Ask me how I know.  <img src={"../../Screenshot from 2019-11-01 06-01-40.png"} alt="updated import function" /></li>
 
-</ul>
 
 Aaaaand we have two fancy md page <em>Descriptions</em> being returned on our <Link to="new-index">example page from yesterday</Link>. But now we can click on the links, and see real for real pages!
 
