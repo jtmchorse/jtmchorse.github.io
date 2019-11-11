@@ -14,11 +14,12 @@ export default ({ data }) => {
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
           <Link to={node.fields.slug}>
-            <h3>
-              {node.frontmatter.title}{" | "}
+              {node.frontmatter.title}{" - "}
+              <span>{node.frontmatter.date}</span>
+            <h4>
               <span>{node.frontmatter.description}</span>
-             {"  "} <span>{node.frontmatter.date}</span>
-            </h3>
+              {"  "}
+            </h4>
           </Link>
         </div>
       ))}
