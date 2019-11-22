@@ -1,2 +1,2 @@
 (window.webpackJsonp=window.webpackJsonp||[]).push([[0],{208:function(e,s,o){},219:function(e,s,o){e.exports={user:"about-css-modules-module--user--2CXbd",avatar:"about-css-modules-module--avatar--2lRF7",description:"about-css-modules-module--description--ev5yS",username:"about-css-modules-module--username--2EBkm",excerpt:"about-css-modules-module--excerpt--2Itwq"}}}]);
-//# sourceMappingURL=styles-04e3aaf4d451e0f6d01f.js.map
+//# sourceMappingURL=styles-86c99b9f7e888d2b0dfb.js.map
