@@ -12,7 +12,7 @@ Today we're building up the logic to take markdown files and make actual html pa
 Following further along we'll build out a new template, this time we make a folder called templates, then make a blog-post.js template page. We use that back over in gatsby-node.js
 
 As you might have read before, you'll remember that I like to type out each line of code that I'm going through in the tutorials. Why? I think it helps me understand better what I'm doing. I have to read what I'm typing out, and you know, type it. This is useful, but also error prone..
-![console erros](/Screenshot&#32;from&#32;2019-11-05&#32;05-33-43.png)
+![console erros](../../assets/Screenshot from 2019-11-01 05-33-43.png)
 <!-- <img src={"..Screenshot from 2019-11-01 05-33-43.png"} -->
 
   <!-- alt="console erros"
