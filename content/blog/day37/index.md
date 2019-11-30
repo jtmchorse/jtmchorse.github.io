@@ -14,7 +14,8 @@ From there I'm sure you can hazzard a guess as to how we'll query that info and 
 
 Hint hint, its on [Day17](/day17/). I'm sorry, the images are broken. Lets cover it again, since anything worth doing is worth doing a bunch so we internalize it.
 
-####Step 1 - make a GraphiQL query.
+<h4 id="Step1"><span>Step 1 - make a GraphiQL query</span></h4>
+
 
 ![Contentful GraphiQL query](../../assets/2019-11-27-contentful-graphiql-product-query.png)
 
